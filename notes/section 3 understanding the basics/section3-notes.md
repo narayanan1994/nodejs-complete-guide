@@ -23,6 +23,9 @@
 # module summary
 ![Alt text](module-summary.png)
 
+# DIY router
+1. https://hackernoon.com/understanding-express-js-creating-your-own-node-http-request-router-4190a9b6aad6
+
 # Useful resources:
 1. Official Node.js Docs: https://nodejs.org/en/docs/guides/
 2. Full Node.js Reference (for all core modules): https://nodejs.org/dist/latest/docs/api/

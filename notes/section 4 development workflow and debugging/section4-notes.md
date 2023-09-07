@@ -1,4 +1,4 @@
-[<<-- back to main](../../README.md) - [<-- previous section](../section%203%20understanding%20the%20basics/section3-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%203%20understanding%20the%20basics/section3-notes.md) - [next section -->](../section%205%20working%20with%20express.js/section5-notes.md)
 
 # creating package.json
 1. use "npm init" command to create package.json
@@ -24,4 +24,4 @@ You can basically differentiate between:
 1. More on debugging Node.js: https://nodejs.org/en/docs/guides/debugging-getting-started/
 2. Debugging Node in Visual Studio Code: https://code.visualstudio.com/docs/nodejs/nodejs-debugging
 
-[<<-- back to main](../../README.md) - [<-- previous section](../section%203%20understanding%20the%20basics/section3-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%203%20understanding%20the%20basics/section3-notes.md) - [next section -->](../section%205%20working%20with%20express.js/section5-notes.md)
