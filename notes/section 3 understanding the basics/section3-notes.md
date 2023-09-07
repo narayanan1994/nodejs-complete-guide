@@ -1,3 +1,6 @@
+# Back to main readme file
+[<-- back to main](../../README.md)
+
 # Section 3 - understanding the basics
 
 1. some core modules available in node.js are http,https,fs,path,os
@@ -26,3 +29,6 @@
 2. Full Node.js Reference (for all core modules): https://nodejs.org/dist/latest/docs/api/
 3. More about the Node.js Event Loop: https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
 4. Blocking and Non-Blocking Code: https://nodejs.org/en/docs/guides/dont-block-the-event-loop/
+
+# Back to main readme file
+[<-- back to main](../../README.md)
