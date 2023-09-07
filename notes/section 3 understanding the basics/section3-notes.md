@@ -1,5 +1,4 @@
-# Back to main readme file
-[<-- back to main](../../README.md)
+[<<-- back to main](../../README.md) - [next section -->](../section%204%20development%20workflow%20and%20debugging/section4-notes.md)
 
 # Section 3 - understanding the basics
 
@@ -30,5 +29,4 @@
 3. More about the Node.js Event Loop: https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
 4. Blocking and Non-Blocking Code: https://nodejs.org/en/docs/guides/dont-block-the-event-loop/
 
-# Back to main readme file
-[<-- back to main](../../README.md)
+[<<-- back to main](../../README.md) - [next section -->](../section%204%20development%20workflow%20and%20debugging/section4-notes.md)
