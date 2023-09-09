@@ -1,4 +1,6 @@
-[<<-- back to main](../../README.md) - [<-- previous section](../section%204%20development%20workflow%20and%20debugging/section4-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%204%20development%20workflow%20and%20debugging/section4-notes.md) - [next section -->](../section%206%20dynamic%20content%20and%20templating%20engines/section6-notes.md)
+
+# Section 5 working with express.js
 
 # express.js
 ![Alt text](things-in-expressjs.png)
@@ -67,4 +69,4 @@ but this <link rel="stylesheet" href="/css/main.css" />
 # module summary
 ![Alt text](module-summary.png)
 
-[<<-- back to main](../../README.md) - [<-- previous section](../section%204%20development%20workflow%20and%20debugging/section4-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%204%20development%20workflow%20and%20debugging/section4-notes.md) - [next section -->](../section%206%20dynamic%20content%20and%20templating%20engines/section6-notes.md)

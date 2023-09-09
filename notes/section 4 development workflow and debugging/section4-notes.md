@@ -1,5 +1,7 @@
 [<<-- back to main](../../README.md) - [<-- previous section](../section%203%20understanding%20the%20basics/section3-notes.md) - [next section -->](../section%205%20working%20with%20express.js/section5-notes.md)
 
+# Section 4 development workflow and debugging
+
 # creating package.json
 1. use "npm init" command to create package.json
 2. add "start": "node app.js" in scripts
