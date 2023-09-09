@@ -1,18 +1,27 @@
-const path = require('path');
+const path = require("path");
 
-const express = require('express');
+const express = require("express");
 
-const rootDir = require('../utils/path');
-const adminData = require('./admin');
+const rootDir = require("../utils/path");
+const adminData = require("./admin");
 
 const router = express.Router();
 
-router.get('/', (req, res, next) => {
-    // console.log('In the / middleware!');
-    // console.log('shop.js', adminData.products);
-    // res.sendFile(path.join(rootDir, 'views', 'shop.html'));
-    const products = adminData.products;
-    res.render('shop', {prods: products, pageTitle: 'Shop', path: '/'}); // this automatically picks shop.pug, we dont have to specify file extension
+router.get("/", (req, res, next) => {
+  // console.log('In the / middleware!');
+  // console.log('shop.js', adminData.products);
+  // res.sendFile(path.join(rootDir, 'views', 'shop.html'));
+  const products = adminData.products;
+  // this automatically picks shop.pug/shop.hbs/shop.ejs file from views folder, we dont have to specify file extension
+  res.render("shop", {
+    prods: products,
+    pageTitle: "Shop",
+    path: "/",
+    hasProducts: products.length > 0,
+    activeShop: true,
+    productCss: true,
+    layout: false // for handlebar, the render() takes this value as layout:true by default, we can overwrite it with setting false
+  });
 });
 
 module.exports = router;
