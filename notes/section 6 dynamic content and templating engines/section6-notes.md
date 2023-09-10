@@ -73,4 +73,9 @@ DIFF PUG vs Handlebars
 
 ```
 
+# Useful resources:
+- Pug Docs: https://pugjs.org/api/getting-started.html
+- Handlebars Docs: https://handlebarsjs.com/
+- EJS Docs: http://ejs.co/#docs
+
 [<<-- back to main](../../README.md) - [<-- previous section](../section%205%20working%20with%20express.js/section5-notes.md) - [next section -->](../../README.md)

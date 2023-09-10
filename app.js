@@ -2,20 +2,10 @@ const path = require("path");
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const expressHbs = require("express-handlebars");
 
 const app = express();
 
-// // in order to set express-handlebars as view engine
-app.engine(
-  "hbs",
-  expressHbs({
-    layoutsDir: "views/layouts", // this will be taken by default but we are mentioning here explicit
-    defaultLayout: "main-layout",
-    extname: "hbs", // we have to give this extension here explicitly, otherwise it will look for .handlebars
-  })
-);
-app.set("view engine", "hbs"); // the name engine name that we set should be file extentions of our html's like .hbs
+app.set("view engine", "ejs");
 // views folder will be taken default, because
 // in order to set views with the folder containing html's
 app.set("views", "views");
@@ -36,7 +26,7 @@ app.use(shopRouter);
 // });
 
 app.use((req, res, next) => {
-  res.status(404).render("404", { pageTitle: "Page Not Found" });
+  res.status(404).render("404", { pageTitle: "Page Not Found", path: "" });
 });
 
 app.listen(3000); // does both createServer and listen
