@@ -10,13 +10,14 @@ app.set("view engine", "ejs");
 // in order to set views with the folder containing html's
 app.set("views", "views");
 
-const adminData = require("./routes/admin");
+const errorController = require('./controllers/error');
+const adminRouter = require("./routes/admin");
 const shopRouter = require("./routes/shop");
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/admin", adminData.routes);
+app.use("/admin", adminRouter);
 app.use(shopRouter);
 
 /* not working */
@@ -25,8 +26,6 @@ app.use(shopRouter);
 //     res.sendFile(path.join(__dirname, 'public', 'node-icon.ico'));
 // });
 
-app.use((req, res, next) => {
-  res.status(404).render("404", { pageTitle: "Page Not Found", path: "" });
-});
+app.use(errorController.get404);
 
 app.listen(3000); // does both createServer and listen

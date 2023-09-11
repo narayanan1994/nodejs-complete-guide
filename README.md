@@ -6,3 +6,4 @@ https://www.udemy.com/course/nodejs-the-complete-guide/
 2. [Section 4 development workflow and debugging](notes/section%204%20development%20workflow%20and%20debugging/section4-notes.md)
 3. [Section 5 working with express.js](notes/section%205%20working%20with%20express.js/section5-notes.md)
 4. [Section 6 working with dynamic contents and templating engines](notes/section%206%20dynamic%20content%20and%20templating%20engines/section6-notes.md)
+5. [Section 7 model view controller](notes/section%207%20model%20view%20controller/section7-notes.md)

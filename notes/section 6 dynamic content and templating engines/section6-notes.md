@@ -1,4 +1,4 @@
-[<<-- back to main](../../README.md) - [<-- previous section](../section%205%20working%20with%20express.js/section5-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%205%20working%20with%20express.js/section5-notes.md) - [next section -->](../section%207%20model%20view%20controller/section7-notes.md)
 
 # Section 6 working with dynamic contents and templating engines
 
@@ -78,4 +78,4 @@ DIFF PUG vs Handlebars
 - Handlebars Docs: https://handlebarsjs.com/
 - EJS Docs: http://ejs.co/#docs
 
-[<<-- back to main](../../README.md) - [<-- previous section](../section%205%20working%20with%20express.js/section5-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%205%20working%20with%20express.js/section5-notes.md) - [next section -->](../section%207%20model%20view%20controller/section7-notes.md)
