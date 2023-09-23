@@ -1,1 +1,8 @@
-[{"title":"test123"},{"title":"test1"}]
+[
+	{
+		"title": "test book 1",
+		"imageUrl": "https://cdn.pixabay.com/photo/2016/03/31/20/51/book-1296045_960_720.png",
+		"price": "19.99",
+		"description": "test book 1"
+	}
+]
