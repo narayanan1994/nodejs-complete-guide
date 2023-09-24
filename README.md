@@ -10,3 +10,5 @@ https://www.udemy.com/course/nodejs-the-complete-guide/
 6. [Section 8 enhancing the app - mvc continued](notes/section%208%20enhancing%20the%20app/section8-notes.md)
 7. [Section 9 dynamic routing and advanced models](notes/section%209%20dynamic%20routes%20and%20advanced%20models/section9-notes.md)
 8. [Section 10 SQL Introduction](notes/section%2010%20SQL%20introduction/section10-notes.md)
+9. [Section 11 understanding sequelize](notes/section%2011%20understanding%20sequelize/section11-notes.md)
+

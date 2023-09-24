@@ -4,13 +4,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title><%= pageTitle %></title>
   <link rel="stylesheet" href="/css/main.css" />
-  <!-- here formCss have to be passed from the render() -->
-  <!-- we cannot check directly the (formCss !== undefined) condition -->
-  <!-- we have to check it via 'locals' like (locals.formCss !== undefined) -->
-  <% if (locals.formCss !== undefined && formCss === true) { %>
-    <link rel="stylesheet" href="/css/forms.css" />
-  <% } %>
-  <% if (locals.productCss !== undefined && productCss === true) { %>
-    <link rel="stylesheet" href="/css/product.css" />
-  <% } %>
+  <link rel="stylesheet" href="/css/forms.css" />
+  <link rel="stylesheet" href="/css/product.css" />
+  <link rel="stylesheet" href="/css/cart.css" />
+  <link rel="stylesheet" href="/css/orders.css" />
 </head>

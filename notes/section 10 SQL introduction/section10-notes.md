@@ -1,4 +1,4 @@
-[<<-- back to main](../../README.md) - [<-- previous section](../section%209%20dynamic%20routes%20and%20advanced%20models/section9-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%209%20dynamic%20routes%20and%20advanced%20models/section9-notes.md) - [next section -->](../section%2011%20understanding%20sequelize/section11-notes.md)
 
 # sample: image urls
 - https://cdn.pixabay.com/photo/2016/03/31/20/51/book-1296045_960_720.png
@@ -37,4 +37,4 @@ as there the data keeps increasing we have to increase the scale of DB,
 - Learn more about MySQL/ SQL in General: https://www.w3schools.com/sql/
 - Learn more about the Node MySQL Package: https://github.com/sidorares/node-mysql2
 
-[<<-- back to main](../../README.md) - [<-- previous section](../section%209%20dynamic%20routes%20and%20advanced%20models/section9-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%209%20dynamic%20routes%20and%20advanced%20models/section9-notes.md) - [next section -->](../section%2011%20understanding%20sequelize/section11-notes.md)
