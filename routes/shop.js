@@ -19,7 +19,7 @@ router.get("/cart", shopController.getCart);
 // POST - /cart
 router.post("/cart", shopController.postCart);
 
-// POST - /cart
+// POST - /cart-delete-item
 router.post("/cart-delete-item", shopController.deleteCartItem);
 
 // GET - /orders

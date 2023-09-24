@@ -9,3 +9,4 @@ https://www.udemy.com/course/nodejs-the-complete-guide/
 5. [Section 7 model view controller](notes/section%207%20model%20view%20controller/section7-notes.md)
 6. [Section 8 enhancing the app - mvc continued](notes/section%208%20enhancing%20the%20app/section8-notes.md)
 7. [Section 9 dynamic routing and advanced models](notes/section%209%20dynamic%20routes%20and%20advanced%20models/section9-notes.md)
+8. [Section 10 SQL Introduction](notes/section%2010%20SQL%20introduction/section10-notes.md)

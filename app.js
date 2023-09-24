@@ -3,6 +3,8 @@ const path = require("path");
 const express = require("express");
 const bodyParser = require("body-parser");
 
+// const db = require('./utils/database');
+
 const app = express();
 
 app.set("view engine", "ejs");
@@ -13,6 +15,17 @@ app.set("views", "views");
 const errorController = require('./controllers/error');
 const adminRouter = require("./routes/admin");
 const shopRouter = require("./routes/shop");
+
+// db.execute("SELECT * FROM products")
+//   .then((result) => {
+//     console.log("table metadata");
+//     console.log(result[1]);
+//     console.log("table data");
+//     console.log(result[0]);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
