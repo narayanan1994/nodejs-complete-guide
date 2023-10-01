@@ -11,4 +11,4 @@ https://www.udemy.com/course/nodejs-the-complete-guide/
 7. [Section 9 dynamic routing and advanced models](notes/section%209%20dynamic%20routes%20and%20advanced%20models/section9-notes.md)
 8. [Section 10 SQL Introduction](notes/section%2010%20SQL%20introduction/section10-notes.md)
 9. [Section 11 understanding sequelize](notes/section%2011%20understanding%20sequelize/section11-notes.md)
-
+9. [Section 12 working with nosql and using mongodb](notes/section%2012%20working%20with%20nosql%20and%20using%20mongodb/section12-notes.md)
