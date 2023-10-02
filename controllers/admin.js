@@ -14,7 +14,13 @@ exports.postAddProduct = (req, res, next) => {
   const imageUrl = req.body.imageUrl;
   const price = req.body.price;
   const description = req.body.description;
-  const product = new Product(null, title, imageUrl, price, description, req.user._id);
+  const product = new Product({
+    title: title,
+    imageUrl: imageUrl,
+    price: price,
+    description: description,
+    userId: req.user, // here we not neccessarily need to mention req.user._id, mongoose itself will extract _.id
+  });
   product
     .save()
     .then((result) => {
@@ -56,15 +62,14 @@ exports.postEditProduct = (req, res, next) => {
   const updatedImageUrl = req.body.imageUrl;
   const updatedPrice = req.body.price;
   const updatedDescription = req.body.description;
-  const product = new Product(
-    productId,
-    updatedTitle,
-    updatedImageUrl,
-    updatedPrice,
-    updatedDescription
-  );
-  product
-    .save()
+  Product.findById(productId)
+    .then((product) => {
+      product.title = updatedTitle;
+      product.imageUrl = updatedImageUrl;
+      product.price = updatedPrice;
+      product.description = updatedDescription;
+      return product.save();
+    })
     .then((result) => {
       // console.log(result);
       res.redirect("/admin/products");
@@ -76,8 +81,8 @@ exports.postEditProduct = (req, res, next) => {
 
 exports.postDeleteProduct = (req, res, next) => {
   const productId = req.body.productId;
-  Product.deleteById(productId)
-    .then(() => {
+  Product.findByIdAndDelete(productId)
+    .then((result) => {
       res.redirect("/admin/products");
     })
     .catch((err) => {
@@ -86,8 +91,11 @@ exports.postDeleteProduct = (req, res, next) => {
 };
 
 exports.getProducts = (req, res, next) => {
-  Product.fetchAll()
+  Product.find()
+    // .select("title price -_id")
+    // .populate("userId", "name -_id")
     .then((products) => {
+      // console.log(products);
       res.render("admin/products", {
         prods: products,
         pageTitle: "Admin products",

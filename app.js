@@ -2,7 +2,7 @@ const path = require("path");
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const mongoConnect = require("./utils/database").mongoConnect;
+const mongoose = require("mongoose");
 
 const app = express();
 
@@ -21,8 +21,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use((req, res, next) => {
-  User.findById("6519bfc986e7ec53bf3684d1").then(user => {
-      req.user = new User(user._id, user.name, user.email, user.cart);
+  User.findById("651aacac81e738a145eb7a2e").then(user => {
+      req.user = user; // here user is full mongoose object
       next();
   }).catch(err => {
       console.log(err);
@@ -40,6 +40,23 @@ app.use(shopRouter);
 
 app.use(errorController.get404);
 
-mongoConnect(() => {
+const username = encodeURIComponent("narayanan");
+const password = encodeURIComponent("mongodb2023");
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.7huboie.mongodb.net/shop?retryWrites=true`).then(result => {
+  // console.log(result);
+  User.findOne().then(user => {
+    if (!user) {
+        const user = new User({
+          name: "narayanan",
+          email: "nanu.s94@gmail.com",
+          cart: {
+            items: [],
+          },
+        });
+        user.save();
+    }
+  })
   app.listen(3000);
+}).catch(err => {
+  console.log(err);
 });

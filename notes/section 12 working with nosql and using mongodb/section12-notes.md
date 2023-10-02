@@ -1,4 +1,4 @@
-[<<-- back to main](../../README.md) - [<-- previous section](../section%2011%20understanding%20sequelize/section11-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%2011%20understanding%20sequelize/section11-notes.md) - [next section -->](../section%2013%20working%20with%20mongoose/section13-notes.md)
 
 # sample: image urls
 - https://cdn.pixabay.com/photo/2016/03/31/20/51/book-1296045_960_720.png
@@ -18,4 +18,4 @@
 - SQL vs NoSQL: https://academind.com/learn/web-dev/sql-vs-nosql/
 - Learn more about MongoDB: https://academind.com/learn/mongodb
 
-[<<-- back to main](../../README.md) - [<-- previous section](../section%2011%20understanding%20sequelize/section11-notes.md) - [next section -->](../../README.md)
+[<<-- back to main](../../README.md) - [<-- previous section](../section%2011%20understanding%20sequelize/section11-notes.md) - [next section -->](../section%2013%20working%20with%20mongoose/section13-notes.md)
